@@ -131,12 +131,6 @@ svg {
   color: #575655;
 }
 
-@media (max-width: 488px) {
-  .projects__title {
-    text-align: center;
-  }
-}
-
 /* FOOTER */
 
 footer {
@@ -186,4 +180,11 @@ footer {
 .social-icons i {
   color: #060b04;
   font-size: 2rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 488px) {
+  .projects__title {
+    text-align: center;
+  }
 }
