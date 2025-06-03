@@ -278,3 +278,17 @@ footer {
     width: 70%;
   }
 }
+
+@media (max-width: 742px) {
+  .hero__container {
+    display: block;
+    padding-top: 3em;
+  }
+  .hero__profile-img {
+    float: left;
+    margin-right: 2em;
+  }
+  .hero__about {
+    max-width: 100%;
+  }
+}
