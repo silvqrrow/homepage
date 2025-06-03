@@ -277,6 +277,39 @@ footer {
   .footer-blurb {
     width: 70%;
   }
+
+  .hero {
+    background: linear-gradient(to right bottom, #0990b2 20%, #fefeff 20%);
+    padding: 2em;
+  }
+
+  .hero__about {
+    box-shadow: none;
+  }
+
+  .hero__profile-img {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+  }
+
+  #hero {
+    justify-content: center;
+    padding-top: 1em;
+  }
+
+  .hero__profile-name {
+    top: 280px;
+    left: 16px;
+    text-align: left;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    width: 60%;
+  }
+
+  .hero__about-header {
+    text-align: center;
+    font-size: 2.2rem;
+  }
 }
 
 @media (max-width: 742px) {
