@@ -58,9 +58,6 @@ h6 {
 
 /* PROJECTS */
 .projects {
-  margin: 0 auto;
-  width: 90%;
-  max-width: 850px;
   padding-block: 2em;
   background-color: #fefeff;
 }
@@ -106,6 +103,9 @@ svg {
 }
 
 .projects__grid-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 850px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 210px);
   gap: 20px;
