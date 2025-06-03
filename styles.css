@@ -56,6 +56,11 @@ h6 {
   isolation: isolate;
 }
 
+/* GLOBAL */
+p {
+  font-family: "Roboto", sans-serif;
+}
+
 /* PROJECTS */
 .projects {
   padding-block: 2em;
@@ -92,6 +97,9 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.projects__card-lower-title p {
   font-family: "Playfair Display", serif;
   font-size: 1rem;
   font-weight: 600;
@@ -121,7 +129,6 @@ svg {
   font-size: 0.75rem;
   padding-bottom: 3em;
   color: #575655;
-  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 488px) {
@@ -140,4 +147,43 @@ footer {
   margin: 0 auto;
   width: 90%;
   max-width: 850px;
+  display: flex;
+  padding: 2em;
+}
+
+.footer-left {
+  color: #fefeff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-header {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.phone,
+.email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.phone svg,
+.email svg {
+  fill: #fefeff;
+  height: 20px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.social-icons i {
+  color: #060b04;
+  font-size: 2rem;
 }
