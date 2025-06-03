@@ -129,3 +129,15 @@ svg {
     text-align: center;
   }
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #0990b2;
+}
+
+.footer-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 850px;
+}
