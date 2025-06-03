@@ -61,6 +61,67 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+/* HERO */
+
+.hero {
+  background: linear-gradient(to bottom right, #0990b2 50%, #fefeff 50%);
+  padding: 2em;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__profile-name {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  color: #fefeff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  width: 100%;
+}
+
+.hero__profile {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero__about {
+  max-width: 450px;
+  background-color: #fefeff;
+  padding: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+}
+
+.hero__profile-img {
+  height: 400px;
+  width: 400px;
+  min-width: 300px;
+  object-fit: cover;
+}
+
+.hero__about-header {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  padding-bottom: 0.5em;
+}
+
+.hero__about-desc {
+  color: #575655;
+  font-size: 0.9rem;
+}
+
+#hero {
+  justify-content: flex-end;
+}
+
 /* PROJECTS */
 .projects {
   padding-block: 2em;
