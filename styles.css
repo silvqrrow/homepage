@@ -143,6 +143,7 @@ footer {
   max-width: 850px;
   display: flex;
   padding: 2em;
+  gap: 10px;
 }
 
 .footer-left {
@@ -156,6 +157,10 @@ footer {
   font-family: "Playfair Display", serif;
   font-weight: 300;
   font-size: 1.8rem;
+}
+
+.footer-blurb {
+  width: 60%;
 }
 
 .phone,
@@ -182,9 +187,33 @@ footer {
   font-size: 2rem;
 }
 
+.contact-img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 488px) {
   .projects__title {
     text-align: center;
+  }
+
+  .footer-container {
+    padding: 0em;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .footer-left {
+    align-items: center;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+
+  .footer-blurb {
+    width: 70%;
   }
 }
