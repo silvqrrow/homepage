@@ -55,3 +55,75 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* PROJECTS */
+.projects {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 850px;
+}
+
+.projects__title {
+  font-size: 2rem;
+  grid-column: 1 / -1;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+}
+
+.projects__card {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.projects_card-upper {
+  background-color: #4aa3d2;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fefeff;
+  padding: 1em;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+}
+
+.projects_card-lower {
+  padding: 0.5em;
+  background-color: #fefeff;
+}
+
+.projects__card-lower-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #060b04;
+}
+
+svg {
+  height: 16px;
+}
+
+.projects__grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 210px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.projects_card-lower-icons {
+  display: flex;
+  gap: 0.5em;
+}
+
+.projects__card-lower-description {
+  font-size: 0.75rem;
+  padding-bottom: 3em;
+  color: #575655;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 488px) {
+  .projects__title {
+    text-align: center;
+  }
+}
